@@ -1,0 +1,18 @@
+
+#para{
+    /* font-family: serif; */
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-size: 18px;
+    font-weight: 600;
+    /* text-align: center; */
+    /* Default : start */
+    /* text-align: start; */
+    /* text-align: end; */
+    /* line-height: 100px; */
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+}
+
+.anchor-text{
+    text-decoration: none;
+}
