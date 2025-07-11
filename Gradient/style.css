@@ -1,0 +1,6 @@
+.container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background: linear-gradient(#FAF7F3,#F0E4D3,#DCC5B2,#D9A299);
+}
