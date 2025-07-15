@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External CSS -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- Internal CSS   -->
+    <!-- <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .example {
+            color: blue;
+        }
+
+        #unique {
+            color: green;
+        }
+
+        p {
+            color: red;
+        }
+    </style> -->
+</head>
+<body>
+    
+<!-- 
+    
+CSS Apply : 3 ways
+
+1.External Css - > <link rel="stylesheet" href="style.css">
+   - This links to an external CSS file.
+   - It is the most efficient way to apply styles across multiple pages.
+2. Internal css - > <style> ... </style>
+   - This is defined within the <head> section of the HTML document.
+   - It is useful for applying styles to a single page.
+3. Inline css - > <h1 style="color: red;background-color: yellow;">Hello World</h1>
+   - This is applied directly to an HTML element using the style attribute.
+   - It is the least efficient way to apply styles and should be avoided for large projects.
+
+
+   priorty order of CSS application:
+   1. Inline CSS (highest priority) 
+   2. Internal CSS
+   3. External CSS (lowest priority)
+
+
+
+    Inline CSS has the highest priority, followed by internal CSS, and finally external CSS has the lowest priority.
+
+
+    Selector in css:
+    1. Element Selector - Selects all elements of a specific type.
+    For example, to select all <p> elements of a document, you would use:
+    ```css
+    p{
+        color: red;
+    }
+    2. Class Selector - Selects elements with a specific class.
+    group level selector -> multiple elements can have the same class.
+    For example, to select all elements with the class "example", you would use:
+    ```css
+    .example {
+        color: blue;
+    }
+    ```
+
+    3. ID Selector - Selects a single element with a specific ID.
+    ID selector is used to select a single element.
+    For example, to select an element with the ID "unique", you would use:
+    ```css
+    #unique {
+        color: green;
+    }
+    ```
+
+    -->
+
+    <!-- Inline CSS -->
+
+<!-- <h1 class="example">Hello World</h1>
+<p id="unique">This is a paragraph.</p>
+<p class="example">This is another paragraph.</p>
+<p>This is a normal paragraph.</p>
+<p>this is second normal paragraph.</p> -->
+
+  <!-- Inline CSS -->
+
+  <!-- <h1 style="color: blue;">Hello World</h1>
+<p style="color: green;">This is a paragraph.</p>
+<p style="color: blue;">This is another paragraph.</p>
+<p style="color: red;">This is a normal paragraph.</p>
+<p style="color: red;">this is second normal paragraph.</p> -->
+
+
+<!-- 
+
+ Text Properties :
+ 
+ 
+ font-family : Specifies the font of an element.
+ font-size : Specifies the size of the font.
+font-weight : Specifies the weight (boldness) of the font.
+text-align : Specifies the horizontal alignment of text.
+line-height : Specifies the height of a line box.
+letter-spacing : Specifies the space between characters in a text.
+word-spacing : Specifies the space between words in a text.
+text-decoration : Specifies the decoration added to text (e.g., underline).
+font-style : Specifies the style of the font (e.g., italic).
+text-transform : Specifies the case transformation of text (e.g., uppercase).
+text-indent : Specifies the indentation of the first line of a text block.
+color : Specifies the color of text.
+list-style : Specifies the style of list items.
+
+-->
+
+<!-- Example of Text Properties -->
+ <h1 style="font-family: 'Courier New', Courier, monospace;">Hello World</h1>
+    <p style="font-size: 40px;  color: blue;">This is a paragraph with various text properties.</p>
+    <p style="font-weight: bold;font-size: 40px; text-align: center;">This is a centered paragraph with bold text.</p>
+</body>
+</html>
