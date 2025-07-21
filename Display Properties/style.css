@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid black;
+    /* display: inline; */
+    /* width: 90%; */
+    /* height: 200px; */
+}
+
+.important-heading{
+    width: 800px;
+    height: 200px;
+    border: 1px solid green;
+    display: inline-block;
+}
