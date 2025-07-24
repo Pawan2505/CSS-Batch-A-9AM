@@ -1,0 +1,14 @@
+.container{
+   border: 2px solid green;
+   background-image: url('./images/img2.jfif'); 
+   background-repeat: no-repeat;
+   height: 200px;
+   background-size: 100% 200px;
+   /* background-attachment: scroll; */
+   /* background-attachment: fixed; */
+   background-attachment: local;
+   overflow: scroll;
+   /* overflow: hidden; */
+   /* overflow: auto; */
+   /* overflow: visible; */
+}
