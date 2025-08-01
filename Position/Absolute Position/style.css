@@ -1,0 +1,32 @@
+.container{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border: 2px solid green;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted red;
+    position: absolute;
+}
+
+.box1{
+    background-color: blue;
+    z-index: 1;
+    left: 700px;
+    top: 200px;
+}
+.box2{
+    background-color: rgb(42, 120, 193);
+}
+.box3{
+    background-color: rgb(199, 147, 34);
+    z-index: 2;
+    top: 300px;
+    left: 500px;
+}
+.box4{
+    background-color: rgb(212, 14, 51);
+}

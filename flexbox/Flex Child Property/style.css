@@ -1,0 +1,45 @@
+.container{
+    width: 90%;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    box-shadow: 0px 4px 8px lightblue;
+    margin: 100px auto;
+    
+}
+
+.box{
+    /* width: 100px; */
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: green;
+    /* flex-basis: 200px; */
+    flex-grow: 1;
+
+    
+}
+
+.box2{
+    background-color: pink;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: brown;
+    flex-grow: 3;
+}
+
+.box4{
+    background-color: lightgreen;
+    flex-grow: 2;
+}
+
+.box5{
+    background-color: violet;
+    flex-grow: 1;
+}
+

@@ -1,0 +1,41 @@
+/* div>ul{
+    color: blue;
+} */
+
+
+.container>#para{
+    background-color: rgb(134, 121, 121);
+    color:white;
+}
+
+#para::first-letter{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+#para::first-line{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(181, 192, 29);
+}
+
+/* div>p:first-child{
+    color: chartreuse;
+} */
+/* div>p:last-child{
+    color: chartreuse;
+} */
+ 
+/* div>p:nth-child(4){
+    color: chartreuse;
+} */
+
+.container p:nth-last-child(3){
+    color: chartreuse;
+}
+
+/* .heading::selection{
+background-color: red;
+color: white;
+} */
+
+
