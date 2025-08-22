@@ -1,0 +1,36 @@
+/* em */
+
+/* .container{
+    font-size: 10px;
+}
+
+
+.para{
+    font-size: 2em;
+} */
+
+
+/* rem */
+
+.container{
+    font-size: 10px;
+}
+
+
+.para1{
+    font-size: 2rem;
+    background-color: red;
+    opacity: 0.2;
+}
+.para2{
+    font-size: 3rem;
+}
+.para3{
+    font-size: 4rem;
+}
+
+.input1[type="text"]{
+    /* background-color: red; */
+    outline:12px dashed green ;
+    outline-offset: 50px;
+}

@@ -1,0 +1,58 @@
+.container{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 4px 8px green;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px red;
+}
+
+/* 
+  - Mobile: 576px to 767px
+    - Tablet: 768px to 991px
+    - Laptop: 992px to 1199px
+    - Desktop: 1200px and above
+*/
+
+/* Mobile: upto 767px */
+
+
+@media (max-width:767px){
+    .box{
+        background-color: yellow;
+    }
+}
+
+/*  - Tablet: 768px to 991px */
+
+@media (min-width:768px) and (max-width:991px){
+    .box{
+        background-color: orange;
+    }
+}
+
+/*     - Laptop: 992px to 1199px */
+
+@media (min-width:992px) and (max-width:1199px){
+    .box{
+        background-color: purple;
+    }
+}
+
+/*  - Desktop: 1200px and above */
+
+@media (min-width:1200px){
+    .box{
+        background-color:gray;
+    }
+}
+
